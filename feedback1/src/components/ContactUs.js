@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import MyApp from './MyApp';
-class profile extends Component {
+class ContactUs extends Component {
     render() {
         return (
-  <div class="wrapper ">
-    <div class="sidebar" data-color="purple" data-background-color="white" data-image="../assets/img/sidebar-1.jpg">
+          <div className='ContactForm' >
+            <div class="sidebar" data-color="purple" data-background-color="white" data-image="../assets/img/sidebar-1.jpg">
 
       <div class="logo"><a href="" class="simple-text logo-normal">
       <img src = "./JJ.png" height = "40" width = "40"></img> Jorjeta Jetcheva
@@ -12,7 +12,7 @@ class profile extends Component {
     
       <div class="sidebar-wrapper">
         <ul class="nav">
-        <li class="nav-item active ">
+        <li class="nav-item ">
             <a class="nav-link" href="./user.html">
               <i class="material-icons">person</i>
               <p>User Profile</p>
@@ -30,7 +30,7 @@ class profile extends Component {
               <p>Notifications</p>
             </a>
           </li>
-          <li class="nav-item ">
+          <li class="nav-item active">
             <a class="nav-link" href="./ContactUs">
               <i class="material-icons">language</i>
               <p>Contact Us</p>
@@ -45,11 +45,12 @@ class profile extends Component {
         </ul>
       </div>
     </div>
+
     <div  class="main-panel">
       <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
         <div class="container-fluid">
           <div class="navbar-wrapper">
-            <a class="navbar-brand" href="javascript:;"><b>Profile page</b></a>
+            <a class="navbar-brand" href="javascript:;"> <b>Contact Us</b></a>
           </div>
             
           <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
@@ -107,31 +108,62 @@ class profile extends Component {
       </nav>
      
       <div class="content">
-        <div class="container-fluid">
-          <div class="col">
-          <div class="col-lg-5 col-md-6 col-sm-6">
-              <div class="card card-stats">
-                <div class="card-header card-header-warning card-header-icon">
-                  <div class="card-icon">
-                    <i class="material-icons">content_copy</i>
-                  </div>
-                  <p class="card-category">CSU</p>
-                  <h3 class="card-title">San Jose State University
-                    <small></small>
-                  </h3>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                    <a href="javascript:;">Powering Silicon Valley</a>
-                  </div>
-                </div>
+      <img src = "./SJSU.png" height = "350" width = "1000"></img>
 
+      <div className='container'>
+            <div className='row'>
+              <div className='col-12 text-center'>
+                <div className='contactForm'>
+                  <form id='contact-form' noValidate>
+                    {/* Row 1 of form */}
+                    <div className='row formRow'>
+                      <div className='col-6'>
+                        <input
+                          type='text'
+                          name='name'
+                          className='form-control formInput'
+                          placeholder='Name'
+                        ></input>
+                      </div>
+                      <div className='col-6'>
+                        <input
+                          type='email'
+                          name='email'
+                          className='form-control formInput'
+                          placeholder='Email address'
+                        ></input>
+                      </div>
+                    </div>
+                    {/* Row 2 of form */}
+                    <div className='row formRow'>
+                      <div className='col'>
+                        <input
+                          type='text'
+                          name='subject'
+                          className='form-control formInput'
+                          placeholder='Subject'
+                        ></input>
+                      </div>
+                    </div>
+                    {/* Row 3 of form */}
+                    <div className='row formRow'>
+                      <div className='col'>
+                        <textarea
+                          rows={3}
+                          name='message'
+                          className='form-control formInput'
+                          placeholder='Message'
+                        ></textarea>
+                      </div>
+                    </div>
+                    <button className='submit-btn' type='submit'>
+                      Submit
+                    </button>
+                  </form>
+                </div>
               </div>
-                    <MyApp/>
             </div>
           </div>
-          
-        </div>
         
       </div>
       <footer class="footer">
@@ -150,7 +182,7 @@ class profile extends Component {
         </div>
       </footer>
     </div>
-  </div>
-        );
+        
+        </div>);
     }
-} export default profile;
+} export default ContactUs;
