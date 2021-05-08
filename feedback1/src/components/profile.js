@@ -7,13 +7,13 @@ class profile extends Component {
     <div class="sidebar" data-color="purple" data-background-color="white" data-image="../assets/img/sidebar-1.jpg">
 
       <div class="logo"><a href="" class="simple-text logo-normal">
-      <img src = "./JJ.png" height = "40" width = "40"></img> Jorjeta Jetcheva
+      <img src = "./avatar.png" height = "40" width = "40"></img> Albus Dumbledore
         </a></div>
     
       <div class="sidebar-wrapper">
         <ul class="nav">
         <li class="nav-item active ">
-            <a class="nav-link" href="./user.html">
+            <a class="nav-link" href="">
               <i class="material-icons">person</i>
               <p>User Profile</p>
             </a>

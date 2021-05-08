@@ -70,7 +70,7 @@ export const getTotalHoursSpentForClass = (parameter) => {
     result.push(values)
     result.push(numbers)
     return result;   
-    }
+}
 
     export const getResponses = (parameter) => {
     var attribute = parameter;

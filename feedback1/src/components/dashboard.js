@@ -21,7 +21,7 @@ class dashboard extends Component {
     <div class="sidebar" data-color="purple" data-background-color="white" data-image="../assets/img/sidebar-1.jpg">
 
       <div class="logo"><a href="./profile" class="simple-text logo-normal">
-         <var><img src = "./JJ.png" height = "40" width = "40"></img> Jorjeta Jetcheva</var>
+         <var><img src = "./avatar.png" height = "40" width = "40"></img> Albus Dumbledore</var>
         </a></div>
       <div class="sidebar-wrapper">
         <ul class="nav">
@@ -148,14 +148,6 @@ class dashboard extends Component {
                 <div class="card-body">
                   <h4 class="card-title">Hours Devoted to Course</h4>
                   <BarGraph type = "pie"  attribute = "hoursSpent" title = "Hours Spent" class="center" />
-                  <p class="card-category">
-            // add graph/pie chart/something here to keep track of hours devoted
-                    </p>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                    <i class="material-icons">access_time</i> updated 4 minutes ago
-                  </div>
                 </div>
               </div>
             </div>
@@ -167,14 +159,6 @@ class dashboard extends Component {
                 <div class="card-body">
                   <h4 class="card-title">Did the homework help you understand the material?</h4>
                   <BarGraph type = "pie" attribute = "understanding" title = "Material Understanding" class="center" />
-                  <p class="card-category">
-            // add graph/pie chart/something here to keep track of material understood
-            </p>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                    <i class="material-icons">access_time</i> updated 4 minutes ago
-                  </div>
                 </div>
               </div>
             </div>
@@ -186,14 +170,6 @@ class dashboard extends Component {
                 <div class="card-body">
                   <h4 class="card-title">How difficult did you find this week's homework assignment? </h4>
                   <BarGraph type = "bar" yaxis = "# of Student Responses" xaxis = "1-5, 1 = very difficult and 5 = easy to understand" attribute = "difficulty" title = "Homework Difficulty" class="center" />
-                  <p class="card-category">
-            // add graph/pie chart/something here to keep track
-            </p>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                    <i class="material-icons">access_time</i> updated 4 minutes ago
-                  </div>
                 </div>
               </div>
             </div>
@@ -207,14 +183,6 @@ class dashboard extends Component {
                 <div class="card-body">
                   <h4 class="card-title">How did you perform on the quiz?</h4>
                   <BarGraph type = 'pie' attribute = "quizScore" title = "Quiz Performance" class="center" />
-                  <p class="card-category">
-            // add graph/pie chart/something here to keep track 
-                    </p>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                    <i class="material-icons">access_time</i> updated 4 minutes ago
-                  </div>
                 </div>
               </div>
             </div>
@@ -226,14 +194,6 @@ class dashboard extends Component {
                 <div class="card-body">
                   <h4 class="card-title">Did you see an improvement in your quiz score this week versus last week?</h4>
                   <BarGraph type = 'pie' attribute = "improvement" title = "Quiz Improvement" class="center" />
-                  <p class="card-category">
-            // add graph/pie chart/something here to keep track 
-            </p>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                    <i class="material-icons">access_time</i> updated 4 minutes ago
-                  </div>
                 </div>
               </div>
             </div>
@@ -245,14 +205,6 @@ class dashboard extends Component {
                 <div class="card-body">
                   <h4 class="card-title">Did the lecture prepare you for the quiz? </h4>
                   <BarGraph type = 'bar' attribute = "lecturePrep" title = "Lecture Preparation" class="center" />
-                  <p class="card-category">
-            // add graph/pie chart/something here to keep track
-            </p>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                    <i class="material-icons">access_time</i> updated 4 minutes ago
-                  </div>
                 </div>
               </div>
             </div>
@@ -266,14 +218,6 @@ class dashboard extends Component {
                 <div class="card-body">
                   <h4 class="card-title">Did the homework assignment prepare you for the quiz? </h4>
                   <BarGraph type = 'bar' attribute = "homeworkPrep" title = "Homework Preparation" class="center" />
-                  <p class="card-category">
-            // add graph/pie chart/something here to keep track 
-                    </p>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                    <i class="material-icons">access_time</i> updated 4 minutes ago
-                  </div>
                 </div>
               </div>
             </div>
@@ -285,14 +229,6 @@ class dashboard extends Component {
                 <div class="card-body">
                   <h4 class="card-title">How do you feel you did on the midterm?</h4>
                   <BarGraph type = 'pie' attribute = "midtermScore" title = "Midterm Prediction" class="center" />
-                  <p class="card-category">
-            // add graph/pie chart/something here to keep track 
-            </p>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                    <i class="material-icons">access_time</i> updated 4 minutes ago
-                  </div>
                 </div>
               </div>
             </div>
@@ -304,14 +240,6 @@ class dashboard extends Component {
                 <div class="card-body">
                   <h4 class="card-title">Did you feel prepared for the midterm? </h4>
                   <BarGraph  type = 'bar' attribute = "prepared" title = "Midterm Preparedness" class="center"  />
-                  <p class="card-category">
-            // add graph/pie chart/something here to keep track
-            </p>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                    <i class="material-icons">access_time</i> updated 4 minutes ago
-                  </div>
                 </div>
               </div>
             </div>
@@ -325,14 +253,6 @@ class dashboard extends Component {
                 <div class="card-body">
                   <h4 class="card-title">Did the quizzes prepare you for the midterm?  </h4>
                   <BarGraph  type = 'bar' attribute = "midQuizPrep" title = "Quiz Preparation (Midterm)" class="center"  />
-                  <p class="card-category">
-            // add graph/pie chart/something here to keep track 
-                    </p>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                    <i class="material-icons">access_time</i> updated 4 minutes ago
-                  </div>
                 </div>
               </div>
             </div>
@@ -344,14 +264,6 @@ class dashboard extends Component {
                 <div class="card-body">
                   <h4 class="card-title">How many hours did you study for this midterm?</h4>
                   <BarGraph type = 'pie' attribute = "midtermHours" title = "Hours Studying (Midterm)" class="center" />
-                  <p class="card-category">
-            // add graph/pie chart/something here to keep track 
-            </p>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                    <i class="material-icons">access_time</i> updated 4 minutes ago
-                  </div>
                 </div>
               </div>
             </div>
@@ -363,14 +275,6 @@ class dashboard extends Component {
                 <div class="card-body">
                   <h4 class="card-title">What score did you get on the midterm?  </h4>
                   <BarGraph type = 'bar' attribute = "yourMidtermScore" title = "Midterm Scores" class="center" />
-                  <p class="card-category">
-            // add graph/pie chart/something here to keep track
-            </p>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                    <i class="material-icons">access_time</i> updated 4 minutes ago
-                  </div>
                 </div>
               </div>
             </div>
@@ -386,14 +290,8 @@ class dashboard extends Component {
                 <div class="card-body">
                   <h4 class="card-title">How do you feel you did on the final? </h4>
                   <BarGraph type = 'bar' attribute = "finalScore" title = "Final Score Prediction" class="center" />
-
                   <p class="card-category">
                     </p>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                    <i class="material-icons">access_time</i> updated 4 minutes ago
-                  </div>
                 </div>
               </div>
             </div>
@@ -405,14 +303,6 @@ class dashboard extends Component {
                 <div class="card-body">
                   <h4 class="card-title">Did you feel prepared for the final? </h4>
                   <BarGraph type = 'pie' attribute = "preparedForFinal" title = "Final Preparedness" class="center" />
-                  <p class="card-category">
-            // add graph/pie chart/something here to keep track 
-            </p>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                    <i class="material-icons">access_time</i> updated 4 minutes ago
-                  </div>
                 </div>
               </div>
             </div>
@@ -424,14 +314,6 @@ class dashboard extends Component {
                 <div class="card-body">
                   <h4 class="card-title">Did the lecture prepare you for the final?  </h4>
                   <BarGraph type = 'bar' attribute = "finLecturePrep" title = "Final Preparation (Lecture)" class="center" />
-                  <p class="card-category">
-            // add graph/pie chart/something here to keep track
-            </p>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                    <i class="material-icons">access_time</i> updated 4 minutes ago
-                  </div>
                 </div>
               </div>
             </div>
@@ -445,14 +327,6 @@ class dashboard extends Component {
                 <div class="card-body">
                   <h4 class="card-title">Did the homework prepare you for the final?</h4>
                   <BarGraph type = 'bar' attribute = "finHomeworkPrep" title = "Final Preparation (Homework) " class="center" />
-                  <p class="card-category">
-            // add graph/pie chart/something here to keep track 
-                    </p>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                    <i class="material-icons">access_time</i> updated 4 minutes ago
-                  </div>
                 </div>
               </div>
             </div>
@@ -464,14 +338,6 @@ class dashboard extends Component {
                 <div class="card-body">
                   <h4 class="card-title">Did the quizzes prepare you for the final?  </h4>
                   <BarGraph type = 'pie' attribute = "finQuizPrep" title = "Final Preparation (Quiz)" class="center" />
-                  <p class="card-category">
-            // add graph/pie chart/something here to keep track 
-            </p>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                    <i class="material-icons">access_time</i> updated 4 minutes ago
-                  </div>
                 </div>
               </div>
             </div>
@@ -483,14 +349,6 @@ class dashboard extends Component {
                 <div class="card-body">
                   <h4 class="card-title">Did the midterm prepare you for the final? </h4>
                   <BarGraph type = 'bar' attribute = "finMidtermPrep" title = "Final Preparation (Midterm)" class="center" />
-                  <p class="card-category">
-            // add graph/pie chart/something here to keep track
-            </p>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                    <i class="material-icons">access_time</i> updated 4 minutes ago
-                  </div>
                 </div>
               </div>
             </div>
@@ -504,14 +362,6 @@ class dashboard extends Component {
                 <div class="card-body">
                   <h4 class="card-title">How many hours did you study for this final?</h4>
                   <BarGraph type = 'pie' attribute = "finalHours" title = "Hours Studying (Final)" class="center" />
-                  <p class="card-category">
-            // add graph/pie chart/something here to keep track 
-                    </p>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                    <i class="material-icons">access_time</i> updated 4 minutes ago
-                  </div>
                 </div>
               </div>
             </div>
@@ -523,14 +373,6 @@ class dashboard extends Component {
                 <div class="card-body">
                   <h4 class="card-title">What score did you get on the final? </h4>
                   <BarGraph type = 'pie' attribute = "yourFinalScore" title = "Final Score" class="center" />
-                  <p class="card-category">
-            // add graph/pie chart/something here to keep track 
-            </p>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                    <i class="material-icons">access_time</i> updated 4 minutes ago
-                  </div>
                 </div>
               </div>
             </div>
