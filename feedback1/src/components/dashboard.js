@@ -21,7 +21,7 @@ class dashboard extends Component {
     <div class="sidebar" data-color="purple" data-background-color="white" data-image="../assets/img/sidebar-1.jpg">
 
       <div class="logo"><a href="./profile" class="simple-text logo-normal">
-         <var><img src = "./avatar.png" height = "40" width = "40"></img> Albus Dumbledore</var>
+         <var><img src = "./avatar.png" height = "40" width = "40"></img> Kim Smith </var>
         </a></div>
       <div class="sidebar-wrapper">
         <ul class="nav">
