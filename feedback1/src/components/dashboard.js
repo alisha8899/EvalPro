@@ -383,7 +383,7 @@ class dashboard extends Component {
                 <div class="card-header card-header-tabs card-header-primary">
                   <div class="nav-tabs-navigation">
                     <div class="nav-tabs-wrapper">
-                      <span class="nav-tabs-title">What else would have helped you prepare for the midterm?</span>
+                      <span class="nav-tabs-title">What additional feedback do you have for this class?</span>
                       <ul class="nav nav-tabs" data-tabs="tabs">
                         <li class="nav-item">
                         </li>
