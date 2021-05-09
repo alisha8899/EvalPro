@@ -204,7 +204,7 @@ class dashboard extends Component {
                 </div>
                 <div class="card-body">
                   <h4 class="card-title">Did the lecture prepare you for the quiz? </h4>
-                  <BarGraph type = 'bar' attribute = "lecturePrep" title = "Lecture Preparation" class="center" />
+                  <BarGraph type = 'bar' yaxis = "# of Student Responses" xaxis = "1-5, 1 = did not help and 5 = helped significantly" attribute = "lecturePrep" title = "Lecture Preparation" class="center" />
                 </div>
               </div>
             </div>
@@ -217,7 +217,7 @@ class dashboard extends Component {
                 </div>
                 <div class="card-body">
                   <h4 class="card-title">Did the homework assignment prepare you for the quiz? </h4>
-                  <BarGraph type = 'bar' attribute = "homeworkPrep" title = "Homework Preparation" class="center" />
+                  <BarGraph type = 'bar' yaxis = "# of Student Responses" xaxis = "1-5, 1 = did not help and 5 = helped significantly" attribute = "homeworkPrep" title = "Homework Preparation" class="center" />
                 </div>
               </div>
             </div>
@@ -239,7 +239,7 @@ class dashboard extends Component {
                 </div>
                 <div class="card-body">
                   <h4 class="card-title">Did you feel prepared for the midterm? </h4>
-                  <BarGraph  type = 'bar' attribute = "prepared" title = "Midterm Preparedness" class="center"  />
+                  <BarGraph  type = 'bar' yaxis = "# of Student Responses" xaxis = "1-5, 1 = not prepared and 5 = completely prepared" attribute = "prepared" title = "Midterm Preparedness" class="center"  />
                 </div>
               </div>
             </div>
@@ -252,7 +252,7 @@ class dashboard extends Component {
                 </div>
                 <div class="card-body">
                   <h4 class="card-title">Did the quizzes prepare you for the midterm?  </h4>
-                  <BarGraph  type = 'bar' attribute = "midQuizPrep" title = "Quiz Preparation (Midterm)" class="center"  />
+                  <BarGraph  type = 'bar' yaxis = "# of Student Responses" xaxis = "1-5, 1 = did not help and 5 = helped significantly" attribute = "midQuizPrep" title = "Quiz Preparation (Midterm)" class="center"  />
                 </div>
               </div>
             </div>
@@ -302,7 +302,7 @@ class dashboard extends Component {
                 </div>
                 <div class="card-body">
                   <h4 class="card-title">Did you feel prepared for the final? </h4>
-                  <BarGraph type = 'pie' attribute = "preparedForFinal" title = "Final Preparedness" class="center" />
+                  <BarGraph type = 'pie' yaxis = "# of Student Responses" xaxis = "1-5, 1 = not prepared and 5 = completely prepared" attribute = "preparedForFinal" title = "Final Preparedness" class="center" />
                 </div>
               </div>
             </div>
@@ -313,7 +313,7 @@ class dashboard extends Component {
                 </div>
                 <div class="card-body">
                   <h4 class="card-title">Did the lecture prepare you for the final?  </h4>
-                  <BarGraph type = 'bar' attribute = "finLecturePrep" title = "Final Preparation (Lecture)" class="center" />
+                  <BarGraph type = 'bar' yaxis = "# of Student Responses" xaxis = "1-5, 1 = did not help and 5 = helped significantly" attribute = "finLecturePrep" title = "Final Preparation (Lecture)" class="center" />
                 </div>
               </div>
             </div>
@@ -326,7 +326,7 @@ class dashboard extends Component {
                 </div>
                 <div class="card-body">
                   <h4 class="card-title">Did the homework prepare you for the final?</h4>
-                  <BarGraph type = 'bar' attribute = "finHomeworkPrep" title = "Final Preparation (Homework) " class="center" />
+                  <BarGraph type = 'bar' yaxis = "# of Student Responses" xaxis = "1-5, 1 = did not help and 5 = helped significantly" attribute = "finHomeworkPrep" title = "Final Preparation (Homework) " class="center" />
                 </div>
               </div>
             </div>
@@ -337,7 +337,7 @@ class dashboard extends Component {
                 </div>
                 <div class="card-body">
                   <h4 class="card-title">Did the quizzes prepare you for the final?  </h4>
-                  <BarGraph type = 'pie' attribute = "finQuizPrep" title = "Final Preparation (Quiz)" class="center" />
+                  <BarGraph type = 'pie' yaxis = "# of Student Responses" xaxis = "1-5, 1 = did not help and 5 = helped significantly" attribute = "finQuizPrep" title = "Final Preparation (Quiz)" class="center" />
                 </div>
               </div>
             </div>
@@ -348,7 +348,7 @@ class dashboard extends Component {
                 </div>
                 <div class="card-body">
                   <h4 class="card-title">Did the midterm prepare you for the final? </h4>
-                  <BarGraph type = 'bar' attribute = "finMidtermPrep" title = "Final Preparation (Midterm)" class="center" />
+                  <BarGraph type = 'bar' yaxis = "# of Student Responses" xaxis = "1-5, 1 = did not help and 5 = helped significantly" attribute = "finMidtermPrep" title = "Final Preparation (Midterm)" class="center" />
                 </div>
               </div>
             </div>
