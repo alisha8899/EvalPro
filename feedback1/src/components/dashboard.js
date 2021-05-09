@@ -28,7 +28,7 @@ class dashboard extends Component {
           <li class="nav-item active">
             <a class="nav-link" href="./profile.html">
               <i class="material-icons">content_paste</i>
-              <p>Cmpe255</p>
+              <p>Cmpe133</p>
             </a>
           </li>
           <li class="nav-item ">
