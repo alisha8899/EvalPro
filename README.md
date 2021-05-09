@@ -36,6 +36,18 @@ npm install
 npm start
 
 ```
+In case the project does not run after running these commands, please try to install these as well: 
+
+```
+cd feedback1
+npm install firebase
+npm install react-calendar
+npm install react-google-login
+npm install react-plotly.js
+npm install google-auth-library
+npm start
+
+```
 
 ## Demonstration
- Include link to demo video here 
+https://drive.google.com/file/d/1eS544fzl0hjh6ohOR-EbyFie9l6FNFA9/view?usp=sharing 
