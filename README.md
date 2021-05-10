@@ -36,7 +36,7 @@ Click start
 Open Slack Channel to converse with conversational agent
 ```
 
-## Running the Project Locally
+## Running the Project Locally (Dashboard for Professors)
 
 Clone the repository:
 
