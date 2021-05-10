@@ -1,0 +1,193 @@
+{
+  "id": "5e2e6bee-772f-43d0-8b55-006bc049d6e0",
+  "name": "quiz",
+  "auto": true,
+  "contexts": [
+    "awaiting-type"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "dcd9052c-64bc-419d-b988-dd0fb8a18b62",
+          "name": "classType",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$classType",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What class would you like to begin with? (Please write class name with number e.i Cmpe133)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5b251b92-b1bd-40f3-869b-9112f026717e",
+          "name": "professorName",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$professorName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Who is your professor? (Please write first and last name)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a05ca1fa-039b-4fb0-8888-926cdc25cac8",
+          "name": "hoursSpent",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$hourSpent",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How many hours did you devote to this course outside of lecture this week? (Please input numbers only)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e4180f12-c608-4c8a-a60d-648c5fef0f0e",
+          "name": "quizScore",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$quizScore",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How did you perform on the quiz? (Please provide your score out of 100 e.i 85)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "f40a27bf-f72f-48bb-b4de-223992c47e63",
+          "name": "improvement",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$improvement",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Did you see an improvement in your quiz score this week versus last week? (Please input 1-5, 1 \u003d no improvement and 5 \u003d improved significantly)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "938f6288-94f3-4400-b64a-4c044f2b56a6",
+          "name": "lecturePrep",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$lecturePrep",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Did the lecture prepare you for the quiz? (Please input 1-5, 1 \u003d did not help and 5 \u003d helped significantly)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "cc064372-428a-4ebe-87e7-2e5397c1b461",
+          "name": "homeworkPrep",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$homeworkPrep",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Did the homework assignment prepare you for the quiz?  (Please input 1-5, 1 \u003d did not help and 5 \u003d helped significantly)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "2f541a24-f311-4b3a-a19b-349837d6ea3e",
+          "name": "assignmentType",
+          "required": true,
+          "dataType": "@assignment-type",
+          "value": "$assignmentType",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you for your feedback. Please add any additional comments about your experience in this class."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "slack",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "750cb1bc-1d30-4a6c-b71f-8ec20d15c2a7",
+    "data": [
+      {
+        "text": "homework",
+        "meta": "@assignment-type",
+        "alias": "assignmentType",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

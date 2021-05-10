@@ -1,0 +1,17 @@
+[
+  {
+    "id": "3056f0ae-e7e7-4b88-9980-2bc915e2ed40",
+    "data": [
+      {
+        "text": "midterm",
+        "meta": "@assignment-type",
+        "alias": "assignmentType",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,275 @@
+{
+  "id": "41ba5e59-3856-4b60-9eba-c9697aaf9a9d",
+  "name": "midterm",
+  "auto": true,
+  "contexts": [
+    "awaiting-type"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d8b7ba8b-a33a-4e3c-832c-defd58cdf6f2",
+          "name": "classType",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$classType",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What class would you like to begin with? (Please write class name with number e.i Cmpe133)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "62946461-70a8-4f28-af65-2aca041e3200",
+          "name": "professorName",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$professorName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Who is your professor? (Please write first and last name)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b0b84489-f948-4454-9386-a2b82d7a3e8d",
+          "name": "hoursSpent",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$hourSpent",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How many hours did you devote to this course outside of lecture this week? (Please input numbers only)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "ec3bcc76-1d7b-4525-990a-a2bbf81fe26c",
+          "name": "midtermScore",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$midtermScore",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How do you feel you did on the midterm? (Please input 1-5, 1 \u003d failed and 5 \u003d very good)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "f7dd7eab-844a-46b5-a293-f164ff29d48f",
+          "name": "prepared",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$prepared",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Did you feel prepared for the midterm? (Please input 1-5, 1 \u003d not prepared and 5 \u003d completely prepared)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "2267c158-ba07-4699-8c4b-2329a73a6773",
+          "name": "midLecturePrep",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$midLecturePrep",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Did the lecture prepare you for the midterm? (Please input 1-5, 1 \u003d did not help and 5 \u003d helped significantly)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a6748055-7cb0-4a1a-83bb-893acd74eab9",
+          "name": "midHomeworkPrep",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$midHomeworkPrep",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Did the homework prepare you for the midterm? (Please input 1-5, 1 \u003d did not help and 5 \u003d helped significantly)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "eeb289b0-115f-4800-9abf-6bb219df1525",
+          "name": "midQuizPrep",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$midQuizPrep",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Did the quizzes prepare you for the midterm? (Please input 1-5, 1 \u003d did not help and 5 \u003d helped significantly)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "27f74bb6-2386-426a-b47c-29c4899ab2f5",
+          "name": "midtermHours",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$midtermHours",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How many hours did you study for this midterm? (Please only input a number)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "bff0b044-7430-42a4-bf63-240dd4621d82",
+          "name": "yourMidtermScore",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$midtermScore",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What score did you get on the midterm? (Please provide your score out of 100 e.i 85)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e0268373-b197-4516-9c5d-2f3c9414828e",
+          "name": "additionalInfo",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$additionalInfo",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What else would have helped you prepare for the midterm? (Free response)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "3f36200d-8be9-4f4d-89ac-667ea3b3c48e",
+          "name": "assignmentType",
+          "required": true,
+          "dataType": "@assignment-type",
+          "value": "$assignmentType",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "slack",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you for your feedback. Would you like to give feedback on a different assignment?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you for your feedback. Please add any additional comments about your experience in this class."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

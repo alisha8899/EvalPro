@@ -1,0 +1,9 @@
+{
+  "id": "b5b35d77-c4ef-4baa-8cc2-1fc04c3b1d02",
+  "name": "homework-type",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

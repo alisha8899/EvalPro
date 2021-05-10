@@ -1,0 +1,9 @@
+{
+  "id": "dfbbf5d5-d242-45b7-9d4e-c406fef279be",
+  "name": "scale-type",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

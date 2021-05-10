@@ -1,0 +1,17 @@
+[
+  {
+    "id": "2e2cad36-c1ba-482c-802a-e2d718cf06fa",
+    "data": [
+      {
+        "text": "quiz",
+        "meta": "@assignment-type",
+        "alias": "assignmentType",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

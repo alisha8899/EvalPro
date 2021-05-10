@@ -1,0 +1,38 @@
+[
+  {
+    "value": "Final exam",
+    "synonyms": [
+      "Final exam"
+    ]
+  },
+  {
+    "value": "Homework",
+    "synonyms": [
+      "Homework"
+    ]
+  },
+  {
+    "value": "Quiz",
+    "synonyms": [
+      "Quiz"
+    ]
+  },
+  {
+    "value": "Midterm",
+    "synonyms": [
+      "Midterm"
+    ]
+  },
+  {
+    "value": "In-class activity",
+    "synonyms": [
+      "In-class activity"
+    ]
+  },
+  {
+    "value": "final",
+    "synonyms": [
+      "final"
+    ]
+  }
+]

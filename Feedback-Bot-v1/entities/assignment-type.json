@@ -1,0 +1,9 @@
+{
+  "id": "2bac3847-c785-4bde-95c8-351a3e53e466",
+  "name": "assignment-type",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

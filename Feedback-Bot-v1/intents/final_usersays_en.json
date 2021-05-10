@@ -1,0 +1,17 @@
+[
+  {
+    "id": "bed04a18-2ce1-4ed7-94ca-cdb3b9a0e16b",
+    "data": [
+      {
+        "text": "final",
+        "meta": "@assignment-type",
+        "alias": "assignmentType",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

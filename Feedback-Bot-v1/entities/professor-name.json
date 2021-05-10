@@ -1,0 +1,9 @@
+{
+  "id": "1a082724-ca69-4647-a4c0-b0f0dfb86701",
+  "name": "professor-name",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

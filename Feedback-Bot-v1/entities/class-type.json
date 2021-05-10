@@ -1,0 +1,9 @@
+{
+  "id": "f6f102b6-c001-4ab4-adad-3a00115f2278",
+  "name": "class-type",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

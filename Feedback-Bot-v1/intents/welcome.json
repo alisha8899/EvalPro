@@ -1,0 +1,55 @@
+{
+  "id": "31e5f494-7db3-4cf7-aaee-8968e0d93e5f",
+  "name": "welcome",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "start",
+      "affectedContexts": [
+        {
+          "name": "awaiting-type",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Welcome! My name is Atlas. I will be your outlet for each of your classes this semester. Please feel free to honestly share all your opinions and feedback. What kind of assignment did you want to provide feedback on?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "slack",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What kind of assignment did you want to provide feedback on?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

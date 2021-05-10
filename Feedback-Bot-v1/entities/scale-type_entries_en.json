@@ -1,0 +1,32 @@
+[
+  {
+    "value": "1 (Did not help)",
+    "synonyms": [
+      "1 (Did not help)"
+    ]
+  },
+  {
+    "value": "2",
+    "synonyms": [
+      "2"
+    ]
+  },
+  {
+    "value": "3",
+    "synonyms": [
+      "3"
+    ]
+  },
+  {
+    "value": "4",
+    "synonyms": [
+      "4"
+    ]
+  },
+  {
+    "value": "5 (Very helpful)",
+    "synonyms": [
+      "5 (Very helpful)"
+    ]
+  }
+]

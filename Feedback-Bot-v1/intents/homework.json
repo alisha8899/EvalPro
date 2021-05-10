@@ -1,0 +1,220 @@
+{
+  "id": "fda5f56e-02be-44cb-aec8-8e82faa8b6d1",
+  "name": "homework",
+  "auto": true,
+  "contexts": [
+    "awaiting-type"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a6c25419-c280-4e03-a3ff-22db65dab0ce",
+          "name": "classType",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$classType",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What class would you like to begin with? (Please write class name with number e.i Cmpe133)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "fd86587c-e95b-4e4b-b85c-b223cfcde371",
+          "name": "professorName",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$professorName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Who is your professor? (Please write first and last name)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "cca4a0c7-f26e-4ec1-9b59-b6b6f3860527",
+          "name": "hoursSpent",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$hourSpent",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How many hours did you devote to this course outside of lecture this week? (Please input numbers only)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e4023653-f7e3-4cf7-8bdd-03dbd048e292",
+          "name": "dateDue",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$dateDue",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "When was the homework due? (Please provide date in this format: MM/DD/YYYY)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "be5e7d20-d832-4fbd-b79c-bff42def1c27",
+          "name": "homeworkType",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$homeworkType",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What kind of homework was assigned this week? (Please pick one: Theory based or Application based)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "6df46b1f-3d86-4fcd-8347-d9c317c9b573",
+          "name": "homeworkName",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$homeworkName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What was the title of your homework assignment? (Please provide name given on Canvas)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "18ccd708-6e3a-4c2e-89d0-98d984420407",
+          "name": "understanding",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$understanding",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Did the homework help you understand the material? (Please input 1-5, 1 \u003d did not help and 5 \u003d very helpful)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "f88e1796-b608-4553-bd72-83fad70f8d6c",
+          "name": "difficulty",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$difficulty",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How difficult did you find this week\u0027s homework assignment? (Please input 1-5, 1 \u003d very difficult, did not complete and 5 \u003d easy to understand, completed)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "51a6bf52-8eb9-47a3-8bcb-202a7b943414",
+          "name": "assignmentType",
+          "required": true,
+          "dataType": "@assignment-type",
+          "value": "$assignmentType",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you for your feedback. Please add any additional comments about your experience in this class."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "slack",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "slack",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
