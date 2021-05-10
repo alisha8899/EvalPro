@@ -1,6 +1,6 @@
 # EvalPro
 
-This is the source code for the Senior Project for the EvalPro application component, which is a React web application which allows Professors to view feedback that has been submitted by students through our Dialogflow conversational agent. 
+This is the source code for the Senior Project for the EvalPro application component, which is a React web application which allows Professors to view feedback that has been submitted by students through our Dialogflow conversational agent. There is also source code that builds the Dialogflow conversational agent, and instructions on integrating the bot with individual Slack channels. 
 
 Link to Github Repository: https://github.com/alisha8899/EvalPro
 
