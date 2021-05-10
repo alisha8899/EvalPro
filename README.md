@@ -16,6 +16,8 @@ Link to Github Repository: https://github.com/alisha8899/EvalPro
 -Authentication services are provided via Google OAuth and Firebase authentication https://developers.google.com/identity/protocols/oauth2 , https://firebase.google.com/docs
 - Cloud Storage for feedback data is provided via Google Firebase Firestore https://firebase.google.com/
 
+- To view our conversational agent (Dialogflow) code, it is in the folder "Feedback-Bot-v1"
+
 ## Running the Project Locally
 
 Clone the repository:
