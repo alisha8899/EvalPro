@@ -36,6 +36,7 @@ Click test in Slack
 Click start 
 Open Slack Channel to converse with conversational agent
 ```
+-To view the fulfillment code that our Dialogflow conversational agent uses to write data to our Firestore instance go to the file: /Feedback-Bot-v1/function-source/index.js
 ## Quick Note on our Instance of Google Firestore
 The configuration details for our firebase instance are contained in the file named firebase.js, in the feedback1 folder
 
