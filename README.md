@@ -18,6 +18,18 @@ Link to Github Repository: https://github.com/alisha8899/EvalPro
 
 - To view our conversational agent (Dialogflow) code, it is in the folder "Feedback-Bot-v1"
 
+## Integrating Dialogflow with Slack
+``` 
+Click on integrations 
+Under Text Based, select Slack
+Open https://api.slack.com/apps
+Create a new app
+Insert app name and select the desired workspace name
+Under Features, select OAuth and Permissions
+
+
+```
+
 ## Running the Project Locally
 
 Clone the repository:
