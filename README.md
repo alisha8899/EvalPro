@@ -17,6 +17,7 @@ Link to Github Repository: https://github.com/alisha8899/EvalPro
 - Cloud Storage for feedback data is provided via Google Firebase Firestore https://firebase.google.com/
 
 - To view our conversational agent (Dialogflow) code, it is in the folder "Feedback-Bot-v1"
+- To view our dashboard and database integration code, it is in the folder "feedback1"
 
 ## Integrating Dialogflow with Slack
 ``` 
