@@ -36,6 +36,8 @@ Click test in Slack
 Click start 
 Open Slack Channel to converse with conversational agent
 ```
+## Quick Note on our Instance of Google Firestore
+The configuration details for our firebase instance are contained in the file named firebase.js, in the feedback1 folder
 
 ## Running the Project Locally (Dashboard for Professors)
 
