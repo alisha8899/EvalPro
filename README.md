@@ -20,14 +20,20 @@ Link to Github Repository: https://github.com/alisha8899/EvalPro
 
 ## Integrating Dialogflow with Slack
 ``` 
-Click on integrations 
-Under Text Based, select Slack
 Open https://api.slack.com/apps
 Create a new app
 Insert app name and select the desired workspace name
 Under Features, select OAuth and Permissions
-
-
+Select install to workspace
+Under Settings, select basic information
+Copy the Client ID, Client Secret, and Verification Token 
+Open Dialogflow
+Click on integrations
+Under Text Based, select Slack and input the copied tokens 
+Save your information 
+Click test in Slack 
+Click start 
+Open Slack Channel to converse with conversational agent
 ```
 
 ## Running the Project Locally
@@ -48,7 +54,6 @@ Frontend:
 cd feedback1
 npm install 
 npm start
-
 ```
 In case the project does not run after running these commands, please try to install these as well: 
 
@@ -60,7 +65,6 @@ npm install react-google-login
 npm install react-plotly.js
 npm install google-auth-library
 npm start
-
 ```
 
 ## Demonstration
